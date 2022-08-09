@@ -34,6 +34,6 @@
   gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
   gzip -c extra/alacritty-msg.man | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
   ## Shell Completion
-  #mkdir -p ~/.bash_completion
-  #cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
-  #echo "source ~/.bash_completion/alacritty" >> ~/.bashrc
+  mkdir -p ~/.bash_completion
+  cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
+  echo "source ~/.bash_completion/alacritty" >> ~/.bashrc
