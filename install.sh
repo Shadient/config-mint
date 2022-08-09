@@ -1,18 +1,18 @@
 # ESSENTIALS
-sudo apt install build-essential git cmake apt-file
-source ~/.bashrc
+  sudo apt install build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev
+  source ~/.bashrc
 
 # INSTALL LANGUAGES
-  # Python3
+  ## Python3
   sudo apt install python3-pip
   
-  # Node & NPM
+  ## Node & NPM
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
   source ~/.bashrc
   nvm install --lts
   source ~/.bashrc
   
-  # Rust
+  ## Rust
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
   source ~/.bashrc
   cargo --version
