@@ -1,5 +1,5 @@
 # ESSENTIALS
-sudo apt install build-essential git
+sudo apt install build-essential git cmake
 source ~/.bashrc
 
 # INSTALL LANGUAGES
