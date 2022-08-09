@@ -1,10 +1,10 @@
 # ESSENTIALS
-sudo apt install build-essential git cmake
+sudo apt install build-essential git cmake apt-file
 source ~/.bashrc
 
 # INSTALL LANGUAGES
   # Python3
-  sudo pacman -S python-pip
+  sudo apt install python3-pip
   
   # Node & NPM
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
