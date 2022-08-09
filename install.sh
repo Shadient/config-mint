@@ -37,3 +37,4 @@
   mkdir -p ~/.bash_completion
   cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
   echo "source ~/.bash_completion/alacritty" >> ~/.bashrc
+  cd ~
