@@ -30,9 +30,9 @@
   sudo desktop-file-install extra/linux/Alacritty.desktop
   sudo update-desktop-database
   ## Manual Page
-  #sudo mkdir -p /usr/local/share/man/man1
-  #gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
-  #gzip -c extra/alacritty-msg.man | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
+  sudo mkdir -p /usr/local/share/man/man1
+  gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
+  gzip -c extra/alacritty-msg.man | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
   ## Shell Completion
   #mkdir -p ~/.bash_completion
   #cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
