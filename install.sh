@@ -52,3 +52,4 @@
   su - sam
   cd ~
   fc-cache -f -v
+  echo 
