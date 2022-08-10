@@ -33,8 +33,10 @@
   sudo mkdir -p /usr/local/share/man/man1
   gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
   gzip -c extra/alacritty-msg.man | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
-  ## Shell Completion
-  mkdir -p ~/.bash_completion
-  cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
-  echo "source ~/.bash_completion/alacritty" >> ~/.bashrc
   cd ~
+  # config
+  cd .config
+  mkdir alacritty
+  cd alacritty
+  wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
+
