@@ -22,7 +22,6 @@
   cd alacritty
   cargo build --release
   ## terminfo
-  infocmp alacritty
   sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
   ## Desktop entry
   sudo cp target/release/alacritty /usr/local/bin # or anywhere else in $PATH
@@ -38,12 +37,11 @@
   cd .config
   mkdir alacritty
   cd alacritty
-  # wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
+  wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
   cd ~
   
 # NEOVIM
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
   chmod u+x nvim.appimage
-  ./nvim.appimage
   sudo mv nvim.appimage /usr/local/bin/nvim
   git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
