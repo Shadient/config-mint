@@ -1,10 +1,10 @@
 # ESSENTIALS
-  sudo apt install build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev
+  sudo apt install ripgrep build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev fuse -y
   source ~/.bashrc
 
 # INSTALL LANGUAGES
   ## Python3
-  sudo apt install python3-pip
+  sudo apt install python3-pip -y
   
   ## Node & NPM
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
@@ -38,16 +38,12 @@
   cd .config
   mkdir alacritty
   cd alacritty
-  wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
-  ## Fix Font
-  cd /
-  cd /usr/share/fonts/truetype/
-  mkdir hack
-  cd hack
-  wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Bold/complete/Hack%20Bold%20Nerd%20Font%20Complete.ttf
-  wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/BoldItalic/complete/Hack%20Bold%20Italic%20Nerd%20Font%20Complete.ttf
-  wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Italic/complete/Hack%20Italic%20Nerd%20Font%20Complete.ttf
-  wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+  # wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
   cd ~
-  fc-cache -f -v
-  echo 
+  
+# NEOVIM
+  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+  chmod u+x nvim.appimage
+  ./nvim.appimage
+  sudo mv nvim.appimage /usr/local/bin/nvim
+  git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
