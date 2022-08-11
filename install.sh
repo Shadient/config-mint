@@ -50,6 +50,6 @@
   mkdir lua/custom
   cp examples/init.lua lua/custom/init.lua
   cp examples/chadrc.lua lua/custom/chadrc.lua
+  cd ~
   
 # I3
-  sudo apt install i3
