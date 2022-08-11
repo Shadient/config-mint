@@ -44,4 +44,12 @@
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
   chmod u+x nvim.appimage
   sudo mv nvim.appimage /usr/local/bin/nvim
+  mkdir .config/nvim
   git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+  cd .config/nvim
+  mkdir lua/custom
+  cp examples/init.lua lua/custom/init.lua
+  cp examples/chadrc.lua lua/custom/chadrc.lua
+  
+# I3
+  sudo apt install i3
