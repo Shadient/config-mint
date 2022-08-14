@@ -1,8 +1,8 @@
-# ESSENTIALS
+## ESSENTIAL DEBIAN PACKAGES
   sudo apt install ripgrep build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev fuse -y
   source ~/.bashrc
 
-# INSTALL LANGUAGES
+## INSTALL LANGUAGES
   ## Python3
   sudo apt install python3-pip -y
   
@@ -17,7 +17,7 @@
   source ~/.bashrc
   cargo --version
 
-# TERMINAL EMULATOR
+## TERMINAL EMULATOR
   git clone https://github.com/alacritty/alacritty.git
   cd alacritty
   cargo build --release
@@ -40,7 +40,7 @@
   wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
   cd ~
   
-# NEOVIM
+## NEOVIM
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
   chmod u+x nvim.appimage
   sudo mv nvim.appimage /usr/local/bin/nvim
@@ -52,5 +52,8 @@
   cp examples/chadrc.lua lua/custom/chadrc.lua
   cd ~
   
-# I3
+## I3
   sudo apt install i3 -y
+  
+## MORE DEBIAN PACKAGES
+  # sudo apt install gparted blender 
