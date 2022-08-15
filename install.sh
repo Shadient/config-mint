@@ -55,6 +55,9 @@
   
 ## I3
   sudo apt install i3 -y
+  mkdir -p ~/.config/i3
+  touch ~/.config/i3/config
+  curl 
   
 ## MORE DEBIAN PACKAGES
   # sudo apt install gparted blender 
