@@ -50,6 +50,7 @@
   mkdir lua/custom
   cp examples/init.lua lua/custom/init.lua
   cp examples/chadrc.lua lua/custom/chadrc.lua
+  curl https://raw.githubusercontent.com/Shadient/config-mint/main/neovim/init.lua > init.lua
   cd ~
   
 ## I3
