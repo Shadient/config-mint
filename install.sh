@@ -16,6 +16,12 @@
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh | 1
   source ~/.bashrc
   cargo --version
+  
+## NERD FONTS
+  git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+  cd nerd-fonts
+  ./install.sh
+  cd ~
 
 ## TERMINAL EMULATOR
   ## install
