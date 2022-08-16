@@ -34,11 +34,8 @@
   gzip -c extra/alacritty-msg.man | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
   cd ~
   ## Config file
-  cd .config
-  mkdir alacritty
-  cd alacritty
-  wget https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
-  cd ~
+  mkdir ~/.config/alacritty
+  wget -P ~/.config/alacritty https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
   
 ## NEOVIM
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
@@ -54,9 +51,9 @@
   cd ~
   
 ## I3
-  sudo apt install i3 -y
-  mkdir -p ~/.config/i3
-  touch ~/.config/i3/config
+  #sudo apt install i3 -y
+  #mkdir -p ~/.config/i3
+  #touch ~/.config/i3/config
   
 ## MORE DEBIAN PACKAGES
   # sudo apt install gparted blender 
