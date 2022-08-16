@@ -18,6 +18,7 @@
   cargo --version
 
 ## TERMINAL EMULATOR
+  ## install
   git clone https://github.com/alacritty/alacritty.git
   cd alacritty
   cargo build --release
@@ -38,11 +39,14 @@
   wget -P ~/.config/alacritty https://raw.githubusercontent.com/Shadient/config-mint/main/alacritty/alacritty.yml
   
 ## NEOVIM
+  ## install
   curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
   chmod u+x nvim.appimage
   sudo mv nvim.appimage /usr/local/bin/nvim
   mkdir .config/nvim
+  ## nvchad
   git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+  ## custom
   cd .config/nvim
   mkdir lua/custom
   cp examples/init.lua lua/custom/init.lua
