@@ -20,7 +20,9 @@
 ## HACK FONT
   mkdir Hack
   cd Hack
-  wget -i hack-font.txt
+  wget https://raw.githubusercontent.com/Shadient/config-mint/main/fonts/hack-fonts.txt
+  wget -i hack-fonts.txt
+  rm hack-fonts.txt
   cd ~
   
 ## NERD FONTS
