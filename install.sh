@@ -18,12 +18,14 @@
   cargo --version
   
 ## HACK FONT
-  mkdir Hack
-  cd Hack
-  wget https://raw.githubusercontent.com/Shadient/config-mint/main/fonts/hack-fonts.txt
-  wget -i hack-fonts.txt
-  rm hack-fonts.txt
-  cd ~
+  sudo apt install fonts-hack-ttf -y
+  fc-cache -f -v
+  #mkdir Hack
+  #cd Hack
+  #wget https://raw.githubusercontent.com/Shadient/config-mint/main/fonts/hack-fonts.txt
+  #wget -i hack-fonts.txt
+  #rm hack-fonts.txt
+  #cd ~
   
 ## NERD FONTS
   #git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
