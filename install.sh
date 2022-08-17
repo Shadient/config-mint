@@ -17,11 +17,17 @@
   source ~/.bashrc
   cargo --version
   
-## NERD FONTS
-  git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-  cd nerd-fonts
-  ./install.sh
+## HACK FONT
+  mkdir Hack
+  cd Hack
+  wget -i hack-font.txt
   cd ~
+  
+## NERD FONTS
+  #git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+  #cd nerd-fonts
+  #./install.sh
+  #cd ~
 
 ## TERMINAL EMULATOR
   ## install
