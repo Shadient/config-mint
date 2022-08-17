@@ -1,5 +1,5 @@
 ## ESSENTIAL DEBIAN PACKAGES
-  sudo apt install ripgrep build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev fuse -y
+  sudo apt install ripgrep build-essential git cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev -y
   source ~/.bashrc
 
 ## INSTALL LANGUAGES
@@ -76,4 +76,8 @@
   #touch ~/.config/i3/config
   
 ## MORE DEBIAN PACKAGES
-  # sudo apt install gparted blender 
+  # sudo apt install gparted blender vlc 
+
+## SSD OPTIMIZATION
+
+
