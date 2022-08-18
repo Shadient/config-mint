@@ -26,6 +26,11 @@
   wget -i hack-fonts.txt
   rm hack-fonts.txt
   cd ~
+
+## COMPOSITOR
+  sudo apt install compton -y
+  mkdir ~/.config/compton
+  wget -P ~/.config/compton [url]
   
 ## NERD FONTS
   #git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
