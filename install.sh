@@ -81,7 +81,7 @@
   #touch ~/.config/i3/config
   
 ## MORE DEBIAN PACKAGES
-  sudo apt install vlc gparted audacity blender qbittorrent htop okular kate virtualbox flameshot actiona pokemmo-installer balena-etcher-electron brave-browser tmux -y
+  sudo apt install vlc gparted audacity blender qbittorrent htop okular kate virtualbox flameshot actiona pokemmo-installer tmux -y
 
 ## SSD OPTIMIZATION
 
