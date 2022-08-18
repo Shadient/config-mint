@@ -76,7 +76,7 @@
   #touch ~/.config/i3/config
   
 ## MORE DEBIAN PACKAGES
-  # sudo apt install gparted blender vlc 
+  sudo apt install vlc gparted audacity blander qbittorrent htop okular kate virtualbox flameshot actiona pokemmo-installer balena-etcher-electron brave-browser -y
 
 ## SSD OPTIMIZATION
 
