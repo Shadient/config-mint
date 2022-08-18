@@ -28,9 +28,9 @@
   cd ~
 
 ## COMPOSITOR
-  sudo apt install compton -y
-  mkdir ~/.config/compton
-  wget -P ~/.config/compton https://raw.githubusercontent.com/Shadient/config-mint/main/compton/compton.conf
+  # sudo apt install compton -y
+  # mkdir ~/.config/compton
+  # wget -P ~/.config/compton https://raw.githubusercontent.com/Shadient/config-mint/main/compton/compton.conf
   
 ## NERD FONTS
   #git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
